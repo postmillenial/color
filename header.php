@@ -7,7 +7,7 @@ function page_header($title){
     echo '
     <header>
         <span class="headernav">
-		<a href="/color/">Give me a new color!</a>
+		<a href="/gray">Give me a new color!</a>
     </header>';
     echo "<h1 class='title'>".$title."</h1>";
     echo "<div class='content'>";

@@ -9,7 +9,7 @@ body{
 
 /*Header styles*/
 header {
-    background-color: #C5D2DB;
+    background-color: #9C9C9C;
     padding:.5em;
     width: calc(100% - 16px);
     clear:both;
@@ -31,6 +31,11 @@ header:after {
 .headernav {
     width: 80%;
     float:left;
+}
+.headernav a:link,
+.headernav a:visited,
+.headernav a:active{
+    color: #D4D4D4;
 }
 .movienet {
     float:left;
@@ -63,7 +68,7 @@ header a:link, header a:visited {
 
 /*FOOTER STYLES*/
 footer{
-    background: #F4921E;
+    background: #D4D4D4;
     padding: .5em;
     margin:0;
     width: calc(100% - 16px);
